@@ -1,4 +1,4 @@
-# Discord
+# Discourse
 
 ## Assumption
 

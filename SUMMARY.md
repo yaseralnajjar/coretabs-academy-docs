@@ -22,7 +22,7 @@
 * [Academy in EC2](configurations/academy-in-ec2.md)
 * [Postgres](configurations/postgres.md)
 * [Nginx](configurations/nginx.md)
-* [Discord](configurations/discord.md)
+* [Discourse](configurations/discord.md)
 
 ## API
 
