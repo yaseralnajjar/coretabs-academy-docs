@@ -17,6 +17,13 @@
 * [Academy in Elasticbeanstalk](deployment/academy-in-elasticbeanstalk.md)
 * [Live Demos](deployment/live-demos.md)
 
+## Configurations
+
+* [Academy in EC2](configurations/academy-in-ec2.md)
+* [Postgres](configurations/postgres.md)
+* [Nginx](configurations/nginx.md)
+* [Discord](configurations/discord.md)
+
 ## API
 
 * [َAuth and Accounts](api/registration-endpoints/README.md)
