@@ -10,9 +10,12 @@
 * [Change ENV vars in Production](how-to/change-env-vars-in-production.md)
 * [Backup/Restore Database](how-to/backup-restore-database.md)
 
-## Deployment \(First Time\)
+## Deployment
 
-* [VPS Initial Config](deployment-first-time/vps-initial-config.md)
+* [VPS Initial Config](deployment/vps-initial-config.md)
+* [Academy in EC2](deployment/academy-in-ec2.md)
+* [Academy in Elasticbeanstalk](deployment/academy-in-elasticbeanstalk.md)
+* [Live Demos](deployment/live-demos.md)
 
 ## API
 
