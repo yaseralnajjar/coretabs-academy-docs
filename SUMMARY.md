@@ -5,6 +5,7 @@
 ## How To
 
 * [Run Django Tests Locally](how-to/run-django-tests-locally.md)
+* [Code Style and Formatting](how-to/code-style-and-formatting.md)
 * [Deploy New Changes](how-to/deploy-new-changes.md)
 * [Start Docker Locally](how-to/start-docker-locally.md)
 * [Manage Containers](how-to/manage-containers.md)
