@@ -30,7 +30,11 @@ Auto formatting will work if you ONLY run it from the main folder which means yo
 
 ![](../.gitbook/assets/image.png)
 
-### Disable Auto Formatting
+### Now you're good to go 🤟
+
+## Further Read
+
+### Disable Auto Formatting \(ONLY if you think it's bad for you 😁\)
 
 Change this line `"editor.formatOnSave": true` into false, and you will be fine \(**do NOT commit this change** 😉\).
 
