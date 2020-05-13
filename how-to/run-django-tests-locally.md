@@ -24,6 +24,6 @@ This will run tests verbosity with level 1 \(normal output / print statements\),
 If you want to test a specific function, specify it by adding **app\_module\_name.tests.class\_name.function\_name**, for example:
 
 ```text
-python manage.py test profiles.tests.ProfileTestCase.test_get_user_xp-v 1 --settings coretabs.settings.test
+python manage.py test profiles.tests.ProfileTestCase.test_get_user_xp -v 1 --settings coretabs.settings.test
 ```
 
