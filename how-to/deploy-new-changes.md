@@ -19,6 +19,6 @@ Simply, push your commit to `develop` branch, **and the build will automatically
 
 1. Connect to the server using ssh \(or aws eb tool\).
 2. `sudo docker ps`to list all containers.
-3. `sudo docker exec -it CONTAINER_ID /bin/sh` \(type only the three first numbers of the CONTAINER\_ID\) to go inside the backend container.
+3. `sudo docker exec -it CONTAINER_ID /bin/sh` \(write only the three first numbers of the CONTAINER\_ID\) to go inside the backend container.
 4.  `python manage.py migrate` to start the migration.
 
