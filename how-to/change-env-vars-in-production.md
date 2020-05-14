@@ -1,6 +1,6 @@
-# Change Environment Variables
+# Manage Environment Variables
 
-### Adding/Managing Environment Variables
+### Managing Environment Variables
 
 We manage env vars in ElasticBeanstalk
 

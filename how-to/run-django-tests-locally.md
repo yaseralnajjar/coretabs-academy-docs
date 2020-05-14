@@ -27,3 +27,9 @@ If you want to test a specific function, specify it by adding **app\_module\_nam
 python manage.py test profiles.tests.ProfileTestCase.test_get_user_xp -v 1 --settings coretabs.settings.test
 ```
 
+### Celery Testing
+
+
+
+
+
