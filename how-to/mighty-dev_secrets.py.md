@@ -34,6 +34,8 @@ MAILGUN_LIST_DOMAIN = 'api-dev.coretabs.net'
 
 ### Connect SQS
 
+Please **make sure the SQS queue is not consumed by the staging/production** server, or you won't receive messages locally.
+
 ```text
 from kombu.utils.url import safequote
 
