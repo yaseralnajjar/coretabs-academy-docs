@@ -49,7 +49,7 @@ time.sleep(10) # wait 10 seconds
 ```
 
 * We wrap the functions with `@call_asynchronously_if_production` decorator to let us call the function normally, it calls the function using `func.delay()`
-* For local testing purposes, you can simply both decorators `@call_asynchronously_if_production`and `@app.task`and run your test just fine.
+* For local testing purposes, you can simply comment both decorators `@call_asynchronously_if_production`and `@app.task`and run your test just fine.
 
 ### Mailgun Tests
 
