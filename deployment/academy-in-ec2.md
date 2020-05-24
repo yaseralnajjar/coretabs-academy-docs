@@ -1,4 +1,4 @@
-# Academy in EC2
+# Deployment on VPS
 
 ## Docker
 

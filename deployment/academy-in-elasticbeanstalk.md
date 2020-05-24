@@ -1,4 +1,4 @@
-# Academy in Elasticbeanstalk
+# Deployment on Elasticbeanstalk
 
 ## Sanity check
 

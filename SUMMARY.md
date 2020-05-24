@@ -10,20 +10,18 @@
 * [Run Django Tests Locally](how-to/run-django-tests-locally.md)
 * [Mighty dev\_secrets.py](how-to/mighty-dev_secrets.py.md)
 * [Start Docker Locally](how-to/start-docker-locally.md)
-* [Manage Containers](how-to/manage-containers.md)
 * [Backup/Restore Database](how-to/backup-restore-database.md)
 
 ## Deployment
 
 * [VPS Initial Config](deployment/vps-initial-config.md)
-* [Academy in EC2](deployment/academy-in-ec2.md)
-* [Academy in Elasticbeanstalk](deployment/academy-in-elasticbeanstalk.md)
+* [Deployment on VPS](deployment/academy-in-ec2.md)
+* [Deployment on Elasticbeanstalk](deployment/academy-in-elasticbeanstalk.md)
 * [Live Demos](deployment/live-demos.md)
 
 ## Configurations
 
 * [Academy in EC2](configurations/academy-in-ec2.md)
-* [Postgres](configurations/postgres.md)
 * [Nginx](configurations/nginx.md)
 * [Discourse](configurations/discord.md)
 
