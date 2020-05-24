@@ -1,5 +1,12 @@
 # Backup/Restore Database
 
+### Clean-up Previous Backup
+
+```text
+rm /var/academy-db/my_new_academy.dump
+rm /home/ec2-user/my_new_academy.dump
+```
+
 ### Getting into the db
 
 ```text
@@ -14,20 +21,22 @@ Inside the postgres container you simply run `pg_dump` like this
 ```text
 docker exec -it $(docker ps -a | grep db- | awk '{print $1}') /bin/sh
 pg_dump -U academy_user -Fc academy_db > /var/lib/postgresql/data/my_new_academy.dump
+exit
+cp /var/academy-db/my_new_academy.dump /home/ec2-user/my_new_academy.dump
 ```
 
-Then copy the file via `scp`
+Then copy the file via `scp`, **run this command in your local machine**  
 
 ```text
-scp -i myssh.pem root@ec2-18-188-100-3.us-east-2.compute.amazonaws.com:/var/academy-db/my_new_academy.dump .
+scp -i myssh.pem ec2-user@SERVERIP:/home/ec2-user/my_new_academy.dump .
 ```
 
-###  Restore database
+### Restore database
 
 First copy the dumb into the server
 
 ```text
-scp -i myssh.pem ./my_new_academy.dump ec2-user@ec2-18-222-5-138.us-east-2.compute.amazonaws.com:/home/ec2-user/my_new_academy.dump
+scp -i myssh.pem ./my_new_academy.dump ec2-user@SERVERIP:/home/ec2-user/my_new_academy.dump
 ```
 
 Then get into the server via ssh
