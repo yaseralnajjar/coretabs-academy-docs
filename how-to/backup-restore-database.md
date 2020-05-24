@@ -7,13 +7,6 @@ rm /var/academy-db/my_new_academy.dump
 rm /home/ec2-user/my_new_academy.dump
 ```
 
-### Getting into the db
-
-```text
-docker exec -it $(docker ps -a | grep db- | awk '{print $1}') /bin/sh
-psql academy_db -U academy_user
-```
-
 ###  Backup database
 
 Inside the postgres container you simply run `pg_dump` like this
@@ -57,4 +50,15 @@ dropdb -U academy_user academy_db
 createdb -U academy_user academy_db --template=template0 --owner=academy_user
 pg_restore -U academy_user -d academy_db --clean /var/lib/postgresql/data/my_new_academy.dump
 ```
+
+## Further Read
+
+### Getting into the db
+
+```text
+docker exec -it $(docker ps -a | grep db- | awk '{print $1}') /bin/sh
+psql academy_db -U academy_user
+```
+
+Exit by running `\q`
 
