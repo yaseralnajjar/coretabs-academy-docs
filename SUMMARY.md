@@ -27,6 +27,7 @@
 
 ## API
 
+* [Endpoints to be Updated](api/other.md)
 * [َAuth and Accounts](api/registration-endpoints/README.md)
   * [Register New User](api/registration-endpoints/register-new-user.md)
   * [Verify Email](api/registration-endpoints/verify-email.md)
@@ -53,5 +54,4 @@
   * [Get User Profile](api/untitled-3/get-user-profile.md)
   * [Get Certificate](api/untitled-3/get-certificate.md)
 * [Discourse](api/discourse.md)
-* [Other](api/other.md)
 
