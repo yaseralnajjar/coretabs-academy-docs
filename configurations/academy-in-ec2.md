@@ -3,6 +3,7 @@
 ## Cheatsheet
 
 ```text
+ssh -i aws ec2-user@IP
 docker exec -it $(docker ps -a | grep api- | awk '{print $1}') /bin/sh
 python manage.py migrate
 
